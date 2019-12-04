@@ -7,7 +7,7 @@
 // CODE HERE
 
 //////////////////Step 2////////////////////
-// Create an object called 'me' that has these keys: firstname, superHeroName, homeTown, superPowers, superPowerXP, and profileImage. 
+// Create an object called 'me' that has these keys: firstName, superHeroName, homeTown, superPowers, superPowerXP, and profileImage. 
 
 // The firstName key should have a value of your name as a string. 
 
