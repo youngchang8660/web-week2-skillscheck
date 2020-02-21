@@ -29,7 +29,9 @@ let me = {
     superHeroName: 'Superman',
     homeTown: 'Atlanta',
     superPowers: ['Mega Blast', 'Thunder From Down Under', 'Calamitous Crop Duster'],
-    superPowerXP: 99,
+    superPowerXP: function () {
+        Math.floor(Math.random() * 100) + 1
+    },
     profileImage: function() {
         return `https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg`
     }

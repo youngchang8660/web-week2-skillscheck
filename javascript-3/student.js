@@ -37,15 +37,15 @@ function addItem(item) {
 //function inside of your removeItem function.
 // Code Here
 
-
 function removeItem(index) {
-    for(let i =0; i <groceries.length; i++) {
-        if(groceries[i] === index) {
+    for(let i =0; i <index.length; i++) {
+        if(index[i] === index) {
             groceries.splice(i,1)
         }
     }
     displayData()
 }
+
 //////////////////STEP 6////////////////////
 //Create a function called 'checkGroceryCount'. Inside of checkGroceryCount, 
 //you're going to check the total number of groceries in your groceries array using .
@@ -55,33 +55,16 @@ function removeItem(index) {
 //with NUMBEROFGROCERIES replaced by the number of items in your groceries array.
 
 // Code Here
-let items=3;
 function checkGroceryCount() {
-    for(let i =0; i < groceries.length; i++) {
-        items++;
-        if(items >= 5) {
-            return 'That looks like a big trip';
-        }   else if (item =1) {
-            return '1 item'
-        }   else {
-            return item + 'items'
-        }
+    if(groceries.length >= 5) {
+        return 'That looks like a big trip';
+    }   else if (groceries.length == 1) {
+        return '1 item'
+    }   else {
+        return groceries.length + 'items'
     }
 }
 
-
-
-// function checkGroceryCount(item) {
-//     for(let item =0; item < groceries.length; i++) {
-//         if(item >= 5) {
-//             return 'That looks like a big trip';
-//         }   else if(item == 1) {
-//             return '1 item'
-//         }   else {
-//             return item +'items'
-//         }
-//     }
-// }
 //////////////////STEP 6////////////////////
 // Refresh the index.html page. You should now see the same thing you saw when you first loaded the page 
 //but you should now be able to add items to your grocery list with a dynamic total showing.
