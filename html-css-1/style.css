@@ -1,0 +1,136 @@
+body {
+    position: relative;
+}
+
+header {
+    background-color: gray;
+    width: 100%;
+    height: 50px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+#right-header {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.right {
+    margin: 15px;
+}
+
+#top-body {
+    border: 1px solid black;
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#body-text-box {
+    border: 1px solid black;
+    background-color: black;
+    width: 90%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: yellow;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#middle-body {
+    border: 1px solid white;
+    width: 100%;
+    height: auto;
+}
+
+.green-boxes {
+    border: 1px solid white;
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#greenbox {
+    border: 1px solid #7ef57a;
+    background-color: #7ef57a;
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.orange-boxes {
+    border: 1px solid white;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}  
+
+#orangebox {
+    border: 1px solid orange;
+    background-color: orange;
+    height: 250px;
+    width: 500px;
+}
+
+.text-image {
+    border: 1px solid white;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+#text-box {
+    border: 1px solid white;
+    background-color: white;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+}
+
+#image-box {
+    border: 1px solid white;
+    background-color: white;
+    height: 200px;
+    width: 300px;
+}
+
+#elephant-img {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    border: 1px solid #6d307a;
+    background-color: #6d307a;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+}
